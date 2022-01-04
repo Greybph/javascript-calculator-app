@@ -1,0 +1,50 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.calculator {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border: 3px solid rgb(126, 83, 155);
+	border-top: 2px solid rgb(126, 83, 155);
+	border-right: 2px solid rgb(126, 83, 155);
+	border-radius: 5px;
+	padding: 1rem 1rem;
+	background: linear-gradient(rgb(202, 202, 202), rgb(163, 163, 163));
+	box-shadow: -1px 1px 0px 1px rgba(126, 83, 155, 0.705);
+}
+
+.calculator .display {
+	width: 17.5ch;
+	margin: 1rem;
+	text-align: right;
+	padding: 0.5rem;
+	font-size: 1.6rem;
+	box-shadow: inset 0px 1px 3px 0px black;
+	background: white;
+	border: 3px solid rgb(126, 83, 155);
+}
+
+.calculator button {
+	width: 60px;
+	height: 60px;
+	margin: 0.2rem 0.1rem;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px 1px rgb(43, 43, 43);
+	background: rgb(126, 83, 155);
+	font-size: 1.4rem;
+	color: white;
+	transition: all 0.1s;
+}
+
+.calculator button:active {
+	box-shadow: none;
+}
+
+.calculator .eql-btn {
+	width: 21.4ch;
+}
